@@ -1,0 +1,290 @@
+2018-01-19 09:21:51,507  INFO ApplicationConfig:48 - Starting ApplicationConfig on wk_0 with PID 2708 (D:\fcj\zdgk\login\target\classes started by Administrator in D:\fcj\zdgk\login)
+2018-01-19 09:21:51,516  INFO ApplicationConfig:593 - No active profile set, falling back to default profiles: default
+2018-01-19 09:21:51,969  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c59725c: startup date [Fri Jan 19 09:21:51 CST 2018]; root of context hierarchy
+2018-01-19 09:21:52,050  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-19 09:21:55,917  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cf739b6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-19 09:21:56,145  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$1885d189] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-19 09:21:56,199  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$cf9962d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-19 09:21:56,243  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-19 09:21:56,275  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-19 09:21:56,282  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration$$EnhancerBySpringCGLIB$$ae95090e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-19 09:21:56,308  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'cacheManager' of type [org.springframework.cache.concurrent.ConcurrentMapCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-19 09:21:56,312  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-19 09:21:56,355  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'applicationConfig' of type [com.mjl.onestep.ApplicationConfig$$EnhancerBySpringCGLIB$$2a9d737a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-19 09:21:56,680  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-19 09:21:57,256  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 80 (http)
+2018-01-19 09:21:57,534  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 5570 ms
+2018-01-19 09:21:57,959  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-19 09:21:57,967  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-19 09:22:06,649  INFO LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-19 09:22:06,672  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-19 09:22:06,802  INFO Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-19 09:22:06,805  INFO Environment:213 - HHH000206: hibernate.properties not found
+2018-01-19 09:22:06,808  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+2018-01-19 09:22:06,920  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-19 09:22:07,131  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-19 09:22:08,154  INFO SchemaValidator:69 - HHH000229: Running schema validator
+2018-01-19 09:22:30,029  INFO QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-19 09:22:30,217  INFO LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-19 09:22:32,606  INFO SpringAnnotationScanner:54 - messageEventHandler bean listeners added
+2018-01-19 09:22:33,308  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/channel/list],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.channel.ChannelController.list(java.lang.Long)
+2018-01-19 09:22:33,310  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/channel/add],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.channel.ChannelController.childrenMenu(java.lang.Long,java.lang.Long,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+2018-01-19 09:22:33,310  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/channel/edit],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.channel.ChannelController.editStation(java.lang.Long,java.lang.Long,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+2018-01-19 09:22:33,311  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/channel/del],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.channel.ChannelController.delStation(java.lang.Long)
+2018-01-19 09:22:33,315  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/content/add],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.content.ContentController.add(java.lang.Long,java.lang.Long,java.lang.String,java.lang.String,java.lang.String)
+2018-01-19 09:22:33,316  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/content/list],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.content.ContentController.list(java.lang.Long,java.lang.Long)
+2018-01-19 09:22:33,316  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/content/edit],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.content.ContentController.editStation(java.lang.Long,java.lang.String,java.lang.String)
+2018-01-19 09:22:33,317  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/content/del],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.content.ContentController.delStation(java.lang.Long)
+2018-01-19 09:22:33,317  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/content/addImage],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.content.ContentController.addImage(org.springframework.web.multipart.MultipartFile,java.lang.Long,java.lang.Long,java.lang.String,java.lang.String)
+2018-01-19 09:22:33,318  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/content/getOneContent],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.content.ContentController.getOneContent(java.lang.Long,java.lang.Long,java.lang.String)
+2018-01-19 09:22:33,322  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/sign/list],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.sign.SignController.list(java.lang.Integer,java.lang.Integer)
+2018-01-19 09:22:33,322  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/sign/add],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.sign.SignController.childrenMenu(java.lang.String,java.lang.String,java.lang.Integer)
+2018-01-19 09:22:33,323  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/sign/edit],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.sign.SignController.editStation(java.lang.Long,java.lang.String,java.lang.String,java.lang.Integer)
+2018-01-19 09:22:33,323  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/sign/del],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.sign.SignController.delStation(java.lang.Long)
+2018-01-19 09:22:33,329  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/station/add],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.station.StationController.add(java.lang.String,java.lang.String)
+2018-01-19 09:22:33,330  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/station/list],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.station.StationController.list(javax.servlet.http.HttpServletRequest,java.lang.Integer,java.lang.Integer)
+2018-01-19 09:22:33,331  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/station/edit],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.station.StationController.edit(java.lang.Long,java.lang.String)
+2018-01-19 09:22:33,331  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/station/del],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.station.StationController.del(java.lang.Long)
+2018-01-19 09:22:33,332  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/station/saveTemplateId],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.station.StationController.saveTemplateId(java.lang.Long,java.lang.Long)
+2018-01-19 09:22:33,337  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/template/add],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.template.TemplateController.add(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,org.springframework.web.multipart.MultipartFile)
+2018-01-19 09:22:33,344  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/template/list],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.template.TemplateController.list(java.lang.Integer,java.lang.Integer,java.lang.Integer)
+2018-01-19 09:22:33,345  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/template/del],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.template.TemplateController.delStation(java.lang.Long)
+2018-01-19 09:22:33,347  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/template/edit],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.template.TemplateController.edit(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+2018-01-19 09:22:33,350  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/template/editStatus],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.template.TemplateController.editStatus(java.lang.Long,java.lang.Integer)
+2018-01-19 09:22:33,351  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/template/editPic],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.os.template.TemplateController.editPic(java.lang.Long,org.springframework.web.multipart.MultipartFile)
+2018-01-19 09:22:33,356  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dict/add],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.dict.DictController.childrenMenu(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-01-19 09:22:33,357  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dict/edit],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.dict.DictController.editStation(java.lang.Long,java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-01-19 09:22:33,359  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dict/del],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.dict.DictController.delStation(java.lang.Long)
+2018-01-19 09:22:33,361  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/dict/list],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.dict.DictController.mainMenu(javax.servlet.http.HttpServletRequest,java.lang.Integer,java.lang.Integer)
+2018-01-19 09:22:33,365  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/log/list],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.log.LogController.list(javax.servlet.http.HttpServletRequest,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-01-19 09:22:33,367  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/log/getLogIpData],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.log.LogController.getLogIpData()
+2018-01-19 09:22:33,372  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/register],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.login.LoginController.register(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-01-19 09:22:33,373  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/stationInfo],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.login.LoginController.stationInfo(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest)
+2018-01-19 09:22:33,374  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/login],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.login.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-01-19 09:22:33,376  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/getSmsCode],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.login.LoginController.getSmsCode(java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-01-19 09:22:33,377  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/loginOut],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.login.LoginController.loginOut()
+2018-01-19 09:22:33,384  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/menu/add],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.menu.MenuController.add(java.lang.Long,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+2018-01-19 09:22:33,385  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/menu/childrenMenu],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.menu.MenuController.childrenMenu(java.lang.Long,javax.servlet.http.HttpServletResponse)
+2018-01-19 09:22:33,385  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/menu/edit],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.menu.MenuController.edit(java.lang.Long,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+2018-01-19 09:22:33,386  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/menu/del],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.menu.MenuController.del(java.lang.Long)
+2018-01-19 09:22:33,386  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/menu/mainMenu],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.menu.MenuController.mainMenu()
+2018-01-19 09:22:33,387  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/menu/allChildrenMenu],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.menu.MenuController.allChildrenMenu(java.lang.Long,javax.servlet.http.HttpServletResponse)
+2018-01-19 09:22:33,387  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/menu/getUserMainMenu],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.menu.MenuController.getUserMainMenu()
+2018-01-19 09:22:33,388  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/menu/getUserchildrenMenu],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.menu.MenuController.getUserchildrenMenu(java.lang.Long,javax.servlet.http.HttpServletResponse)
+2018-01-19 09:22:33,388  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/menu/allMainMenu],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.menu.MenuController.allMainMenu()
+2018-01-19 09:22:33,391  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/role/add],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.role.RoleController.add(java.lang.String)
+2018-01-19 09:22:33,392  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/role/list],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.role.RoleController.list(javax.servlet.http.HttpServletRequest,java.lang.Integer,java.lang.Integer)
+2018-01-19 09:22:33,392  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/role/getMenuByroleId],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.role.RoleController.edit(java.lang.Long)
+2018-01-19 09:22:33,393  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/role/edit],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.role.RoleController.edit(java.lang.Long,java.lang.String)
+2018-01-19 09:22:33,393  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/role/del],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.role.RoleController.del(java.lang.Long)
+2018-01-19 09:22:33,393  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/role/UpdateRole],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.role.RoleController.updateRole(java.lang.Long,java.lang.String)
+2018-01-19 09:22:33,396  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/user/edit],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.user.UserController.editStation(java.lang.Long,java.lang.Long)
+2018-01-19 09:22:33,397  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/user/del],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.user.UserController.delStation(java.lang.Long)
+2018-01-19 09:22:33,398  INFO RequestMappingHandlerMapping:543 - Mapped "{[/api/user/list],methods=[POST]}" onto public com.mjl.onestep.common.utils.AjaxJson com.mjl.onestep.api.sys.user.UserController.mainMenu(javax.servlet.http.HttpServletRequest,java.lang.Integer,java.lang.Integer)
+2018-01-19 09:22:33,400  INFO RequestMappingHandlerMapping:543 - Mapped "{[/editStation]}" onto public java.lang.String com.mjl.onestep.view.EditStationController.editStation(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2018-01-19 09:22:33,400  INFO RequestMappingHandlerMapping:543 - Mapped "{[/yellowmoon]}" onto public java.lang.String com.mjl.onestep.view.EditStationController.yellowmoon()
+2018-01-19 09:22:33,404  INFO RequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.mjl.onestep.view.IndexController.index(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)
+2018-01-19 09:22:33,405  INFO RequestMappingHandlerMapping:543 - Mapped "{[/page],methods=[GET]}" onto public java.lang.String com.mjl.onestep.view.IndexController.page(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)
+2018-01-19 09:22:33,406  INFO RequestMappingHandlerMapping:543 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-01-19 09:22:33,411  INFO RequestMappingHandlerMapping:543 - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-01-19 09:22:33,413  INFO RequestMappingHandlerMapping:543 - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-01-19 09:22:33,414  INFO RequestMappingHandlerMapping:543 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-01-19 09:22:33,419  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-19 09:22:33,420  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-19 09:22:33,954  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-19 09:22:33,954  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-19 09:22:33,955  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-19 09:22:34,102  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c59725c: startup date [Fri Jan 19 09:21:51 CST 2018]; root of context hierarchy
+2018-01-19 09:22:34,218  INFO ExceptionHandlerExceptionResolver:273 - Detected @ExceptionHandler methods in globalExceptionHandler
+2018-01-19 09:22:36,170  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-01-19 09:22:36,193  INFO DocumentationPluginsBootstrapper:84 - Context refreshed
+2018-01-19 09:22:36,212  INFO DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+2018-01-19 09:22:36,224  INFO ApiListingReferenceScanner:44 - Scanning for api listing references
+2018-01-19 09:22:36,369  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,370  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,370  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,370  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,371  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,371  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,416  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,429  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,430  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,430  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,430  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,431  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,431  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,441  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,478  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,478  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,478  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,479  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,479  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,492  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,492  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,493  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,493  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,493  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,506  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,510  INFO CachingOperationNameGenerator:40 - Generating unique operation named: delStationUsingPOST_1
+2018-01-19 09:22:36,520  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,520  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,520  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,522  INFO CachingOperationNameGenerator:40 - Generating unique operation named: editStationUsingPOST_1
+2018-01-19 09:22:36,527  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,528  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,528  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,535  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,535  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,537  INFO CachingOperationNameGenerator:40 - Generating unique operation named: listUsingPOST_1
+2018-01-19 09:22:36,543  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,543  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,543  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,543  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,545  INFO CachingOperationNameGenerator:40 - Generating unique operation named: childrenMenuUsingPOST_1
+2018-01-19 09:22:36,549  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,550  INFO CachingOperationNameGenerator:40 - Generating unique operation named: delStationUsingPOST_2
+2018-01-19 09:22:36,555  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,555  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,556  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,556  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,557  INFO CachingOperationNameGenerator:40 - Generating unique operation named: editStationUsingPOST_2
+2018-01-19 09:22:36,561  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,561  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,572  INFO CachingOperationNameGenerator:40 - Generating unique operation named: editStationUsingPOST_3
+2018-01-19 09:22:36,610  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,611  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,611  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,611  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,611  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,611  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,613  INFO CachingOperationNameGenerator:40 - Generating unique operation named: listUsingPOST_2
+2018-01-19 09:22:36,618  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,623  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,624  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,632  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,633  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,633  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,661  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,661  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,662  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,662  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,663  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,663  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,663  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,667  INFO CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2018-01-19 09:22:36,684  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,709  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,712  INFO CachingOperationNameGenerator:40 - Generating unique operation named: childrenMenuUsingPOST_2
+2018-01-19 09:22:36,725  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,739  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,740  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,740  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,740  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,741  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,741  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,741  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,768  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,781  INFO CachingOperationNameGenerator:40 - Generating unique operation named: mainMenuUsingPOST_1
+2018-01-19 09:22:36,791  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,794  INFO CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2018-01-19 09:22:36,799  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,802  INFO CachingOperationNameGenerator:40 - Generating unique operation named: delUsingPOST_1
+2018-01-19 09:22:36,810  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,811  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,813  INFO CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPOST_1
+2018-01-19 09:22:36,819  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,821  INFO CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPOST_2
+2018-01-19 09:22:36,826  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,826  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,829  INFO CachingOperationNameGenerator:40 - Generating unique operation named: listUsingPOST_3
+2018-01-19 09:22:36,834  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,834  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,842  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,843  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,845  INFO CachingOperationNameGenerator:40 - Generating unique operation named: childrenMenuUsingPOST_3
+2018-01-19 09:22:36,850  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,853  INFO CachingOperationNameGenerator:40 - Generating unique operation named: delStationUsingPOST_3
+2018-01-19 09:22:36,868  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,868  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,868  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,869  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,871  INFO CachingOperationNameGenerator:40 - Generating unique operation named: editStationUsingPOST_4
+2018-01-19 09:22:36,879  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,879  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,881  INFO CachingOperationNameGenerator:40 - Generating unique operation named: listUsingPOST_4
+2018-01-19 09:22:36,889  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,890  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,892  INFO CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_3
+2018-01-19 09:22:36,897  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,899  INFO CachingOperationNameGenerator:40 - Generating unique operation named: delUsingPOST_2
+2018-01-19 09:22:36,904  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,904  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,906  INFO CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPOST_3
+2018-01-19 09:22:36,911  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,912  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,914  INFO CachingOperationNameGenerator:40 - Generating unique operation named: listUsingPOST_5
+2018-01-19 09:22:36,919  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,920  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,933  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,933  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,934  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,934  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,934  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,937  INFO CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_4
+2018-01-19 09:22:36,943  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,946  INFO CachingOperationNameGenerator:40 - Generating unique operation named: delStationUsingPOST_4
+2018-01-19 09:22:36,954  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,954  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,954  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,955  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,955  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,957  INFO CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPOST_4
+2018-01-19 09:22:36,964  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,964  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,974  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,974  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,983  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,983  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,983  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,986  INFO CachingOperationNameGenerator:40 - Generating unique operation named: listUsingPOST_6
+2018-01-19 09:22:36,992  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,994  INFO CachingOperationNameGenerator:40 - Generating unique operation named: delStationUsingPOST_5
+2018-01-19 09:22:36,998  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:36,999  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:37,001  INFO CachingOperationNameGenerator:40 - Generating unique operation named: editStationUsingPOST_5
+2018-01-19 09:22:37,005  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:37,006  WARN OperationImplicitParameterReader:88 - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-01-19 09:22:37,008  INFO CachingOperationNameGenerator:40 - Generating unique operation named: mainMenuUsingPOST_2
+2018-01-19 09:22:37,209  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 80 (http)
+2018-01-19 09:22:37,218  INFO SocketIOServer:130 - Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2018-01-19 09:22:37,609  INFO SocketIOServer:155 - SocketIO server started at port: 8081
+2018-01-19 09:22:37,612  INFO ApplicationConfig:57 - Started ApplicationConfig in 46.445 seconds (JVM running for 49.509)
+2018-01-19 09:22:47,808  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-19 09:22:47,845  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018-01-19 09:22:47,905  INFO TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-01-19 09:22:47,976  INFO AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-01-19 09:22:47,976  INFO AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-01-19 09:22:47,976  INFO AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-01-19 09:22:47,976  INFO AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-01-19 09:22:47,981  INFO CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-01-19 09:22:47,981  INFO TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-01-19 09:22:48,593  WARN PageNotFound:1176 - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'dispatcherServlet'

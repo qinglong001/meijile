@@ -1,0 +1,55 @@
+.openTool{
+		position: fixed!important;
+		right: 10px;
+		top: 10px;
+		z-index: 1000;
+	}
+	.editBox{
+		min-height: 40px;
+		display: flex;
+		flex-direction:column;
+		align-items: flex-start;
+		flex-wrap:wrap;
+		position: absolute;
+    	border: solid 2px rgba(100,100,100,0.8);
+    	height: 100%;
+    	width: 100%;
+    	top:0;
+    	left: 0;
+	}
+    .editBtn,.imgBtn{
+    	background: #000;
+    	border: none;
+    	outline: none;
+    	color: #fff;
+    	font-size: 14px;
+    	padding: 3px 6px;
+    	margin-bottom: 10px;
+    }
+
+	#modelContent{
+		height: 100vh;
+		overflow: auto;
+	}
+	.a-upload {
+	    position: relative;
+	    cursor: pointer;
+	    color: #eee;
+	    background: #000;
+	    overflow: hidden;
+	    display: inline-block;
+	    font-size: 14px;
+	    padding: 3px 6px;
+	}
+	.a-upload:hover{
+		color: #fff;
+	}
+	.a-upload  input {
+	    position: absolute;
+	    font-size: 100px;
+	    right: 0;
+	    top: 0;
+	    opacity: 0;
+	    filter: alpha(opacity=0);
+	    cursor: pointer
+	}
